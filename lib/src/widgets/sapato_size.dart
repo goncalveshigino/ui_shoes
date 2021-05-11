@@ -8,7 +8,7 @@ class SapatosSizePreview extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 5),
       child: Container(
          width: double.infinity,
-         height: 430, 
+         height: 380, 
          decoration: BoxDecoration(
            color: Color(0xffFFCF53),
            borderRadius: BorderRadius.circular(50)
