@@ -117,10 +117,14 @@ class _SapatoComSombra extends StatelessWidget {
       child: Stack(
          children: [
              
-            Positioned(
-              bottom: 20,
+            Container(
+              margin: EdgeInsets.only(top: 76),
+              alignment: Alignment.bottomCenter,
+              child: Positioned(
+              bottom: 90,
               right: 0,
-              child: _SapatoSombra()
+                child: _SapatoSombra()
+              ),
             ),
 
 
